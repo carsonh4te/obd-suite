@@ -27,7 +27,7 @@ while [ $ATTEMPT -le $MAX_RETRIES ]; do
     # Step 2: Initialize slcand (-s6 sets speed to 500kbps HS-CAN)
     slcand -o -c -s6 /dev/ttyUSB0 slcan0
     
-    # Pause to give Linux time to actually register the new slcan0 network device
+    # Pause to give Linux time to register the new slcan0 network device
     sleep 2
     
     # Step 3: Bring the network interface up
