@@ -1,4 +1,5 @@
 # Universal OBD2 & CAN Diagnostic Suite
+[![Build and Test](https://github.com/carsonh4te/obd-suite/actions/workflows/build-test.yml/badge.svg)](https://github.com/carsonh4te/obd-suite/actions/workflows/build-test.yml)
 
 A containerized, CLI-based vehicle diagnostic toolkit designed for lightweight Linux environments. This suite utilizes an OBDLink EX (STN2232) adapter passed through to a privileged Docker container to perform standard OBD2 diagnostics, live telemetry logging, raw CAN bus sniffing, and deep UDS module querying.
 
